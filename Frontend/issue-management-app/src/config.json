@@ -1,0 +1,13 @@
+{
+  "clientID": "",
+  "baseUrl": "https://api.asgardeo.io/t/<org>",
+  "signInRedirectURL": "http://localhost:3000",
+  "signOutRedirectURL": "http://localhost:3000",
+  "issueAPI": {
+    "url": "http://localhost:9090",
+    "path": "/issues",
+    "createPermssion": "issue-api:view-issues",
+    "viewPermission": "issue-api:view-issues",
+    "closePermssion": "issue-api:view-issues"
+  }
+}
